@@ -1,0 +1,10 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:32749"
+    }
+  },
+  "features" : [{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[429805.42669999972,9137022.0045999996]},"properties":{"OBJECTID":1,"Nama_Objek":"Keraton Yogyakarta","Y":-7.8066700000000004,"X":110.36333}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[429316.28780000005,9136683.8422999997]},"properties":{"OBJECTID":2,"Nama_Objek":"Situs Taman Sari","Y":-7.8097219999999998,"X":110.358889}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[429865.36629999988,9137487.5416000001]},"properties":{"OBJECTID":3,"Nama_Objek":"Museum Sonobudoyo","Y":-7.80246,"X":110.36387999999999}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[430110.87949999981,9137729.2576000001]},"properties":{"OBJECTID":4,"Nama_Objek":"Benteng Vredeburg","Y":-7.8002770000000003,"X":110.36611000000001}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[431217.76539999992,9137656.3911000006]},"properties":{"OBJECTID":5,"Nama_Objek":"Pura Pakualaman","Y":-7.8009510000000004,"X":110.376148}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[430206.13399999961,9139649.3376000002]},"properties":{"OBJECTID":6,"Nama_Objek":"Tugu Pal Putih","Y":-7.7829110000000004,"X":110.367}}]
+}

@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36333000009054,
+          -7.806670000331128
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Keraton Yogyakarta"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.35888900039875,
+          -7.809721999621147
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Situs Taman Sari"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36387999977084,
+          -7.802460000145476
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Museum Sonobudoyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36610999963555,
+          -7.800277000335605
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Benteng Vredeburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37614799970888,
+          -7.8009509999569
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Pura Pakualaman"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36699999969245,
+          -7.782910999954144
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Tugu Pal Putih"
+      }
+    }
+  ]
+}

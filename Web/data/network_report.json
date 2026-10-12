@@ -1,0 +1,84 @@
+{
+  "metric_crs": "EPSG:32749",
+  "directed": false,
+  "endpoint_snap_tolerance_m": 1.0,
+  "max_location_snap_m": 150.0,
+  "issues": [
+    {
+      "dataset": "roads",
+      "id": 898,
+      "reason": "Ruas nol setelah snapping diabaikan."
+    }
+  ],
+  "endpoint_snaps": [
+    {
+      "from": [
+        433673.5256,
+        9136119.7026
+      ],
+      "to": [
+        433673.4649,
+        9136119.3433
+      ],
+      "distance_m": 0.3643912463587245
+    }
+  ],
+  "unconnected_crossings": [],
+  "assumptions": [
+    "Seluruh kelas jalan digunakan; aturan satu arah tidak diterapkan.",
+    "Persilangan tanpa vertex bersama tidak otomatis menjadi simpang.",
+    "Bobot dihitung dari panjang geometri dalam meter.",
+    "Akses dari titik asli ke ruas terdekat tidak termasuk jarak rute."
+  ],
+  "input_road_features": 3296,
+  "valid_road_parts": 3296,
+  "nodes": 2196,
+  "edges": 3295,
+  "components": 5,
+  "component_node_counts": [
+    2159,
+    31,
+    2,
+    2,
+    2
+  ],
+  "places": 6,
+  "place_snapping": [
+    {
+      "id": 1,
+      "name": "Keraton Yogyakarta",
+      "distance_m": 12.76787701597501,
+      "within_limit": true
+    },
+    {
+      "id": 2,
+      "name": "Situs Taman Sari",
+      "distance_m": 61.30383672468091,
+      "within_limit": true
+    },
+    {
+      "id": 3,
+      "name": "Museum Sonobudoyo",
+      "distance_m": 40.18686944855628,
+      "within_limit": true
+    },
+    {
+      "id": 4,
+      "name": "Benteng Vredeburg",
+      "distance_m": 104.11636039328678,
+      "within_limit": true
+    },
+    {
+      "id": 5,
+      "name": "Pura Pakualaman",
+      "distance_m": 11.40049814826122,
+      "within_limit": true
+    },
+    {
+      "id": 6,
+      "name": "Tugu Pal Putih",
+      "distance_m": 1.5619218348357697,
+      "within_limit": true
+    }
+  ]
+}

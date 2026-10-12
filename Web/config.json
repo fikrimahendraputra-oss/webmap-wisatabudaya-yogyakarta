@@ -1,0 +1,27 @@
+{
+  "roads_file": "data/JalanClip_49S_FeaturesToJSON.geojson",
+  "places_file": "data/Lokasi_Wisata_FeaturesToJSON.geojson",
+  "source_crs": "EPSG:32749",
+  "metric_crs": "EPSG:32749",
+  "endpoint_snap_tolerance_m": 1.0,
+  "max_location_snap_m": 150.0,
+  "road_fields": {
+    "id": "OBJECTID",
+    "name": "NAMOBJ",
+    "category": "REMARK",
+    "length": "Shape_Length"
+  },
+  "place_fields": {
+    "id": "OBJECTID",
+    "name": "Nama_Objek",
+    "address": "alamat",
+    "category": "kategori",
+    "description": "deskripsi",
+    "photo": "foto"
+  },
+  "scenarios": [
+    {"id": "rute-1", "name": "Rute 1", "color": "#176b50", "place_ids": [4, 3, 1, 2]},
+    {"id": "rute-2", "name": "Rute 2", "color": "#b45d24", "place_ids": [6, 5, 4]},
+    {"id": "rute-3", "name": "Rute 3", "color": "#386cb0", "place_ids": [6, 5, 4, 3, 1, 2]}
+  ]
+}
